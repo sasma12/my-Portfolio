@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "My First Post",
+      "date": "2024-09-01",
+      "content": "<p>This is the content of my first post.</p>"
+    },
+    {
+      "id": 2,
+      "title": "Another Post",
+      "date": "2024-09-05",
+      "content": "<p>This is the content of another post.</p>"
+    }
+    
+  ]
+  
