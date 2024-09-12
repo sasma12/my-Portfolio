@@ -110,7 +110,7 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background-image: url('public/images/oo.png'); /* Path to your image */
+  /* Path to your image */
   background-size: cover;
   background-repeat: no-repeat;
   animation: float 4s ease-in-out infinite;
