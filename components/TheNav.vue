@@ -46,8 +46,10 @@ export default {
 <style scoped>
 /* General styles */
 .navbar {
+  
   background-color: rgb(15, 13, 12); /* Set background color for navbar */
   padding: 10px 20px;
+  
 }
 
 .navbar-brand {
@@ -61,11 +63,15 @@ export default {
 
 /* Navbar menu items */
 .navbar-end .navbar-item {
+  
   color: #f9d402;
-  padding: 10px 15px;
+  padding: 5px 20px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform:uppercase;
+  text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 .navbar-end .navbar-item:hover {
@@ -213,7 +219,7 @@ export default {
   .navbar-end .navbar-item {
     display: block;
     padding: 10px 0;
-    border-bottom: 1px solid #f9d402;
+    border-bottom: 1px solid #666353;
   }
 
   .navbar-end .navbar-item:last-child {

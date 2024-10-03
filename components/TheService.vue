@@ -73,7 +73,7 @@
         </div>
       </div>
     </div>
-    <div class="contact-form-section">
+    <!-- <div class="contact-form-section">
       <div class="container">
         <h2>Contact Us for More Details</h2>
         <form action="/submit-form" method="post" class="contact-form">
@@ -92,14 +92,15 @@
           <button type="submit" class="submit-button">Send Message</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <style scoped>
 /* Services Section */
 .services-section {
-  /* background-color: #000000; Background color */
+  background-color: #000000;
+
   padding: 50px 20px;
 }
 
@@ -210,13 +211,16 @@ h1 {
 }
 
 .contact-button:hover {
-  background-color: #e64a19;
+  background-color: #19e63b;
 }
 
-/* Contact Form Section */
+/* Contact Form Section
 .contact-form-section {
-  background-color: #fffdfc;
-  padding: 50px 20px;
+  background-color:#48544a;
+
+ 
+  
+  padding: 50px 50x;
   margin-top: 20px;
 }
 
@@ -224,10 +228,11 @@ h1 {
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: center;
-  color: #333;
+  color: #f4f3f3;
 }
 
 .contact-form {
+  border-radius: 30%;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -240,7 +245,7 @@ h1 {
   display: block;
   font-size: 1rem;
   margin-bottom: 5px;
-  color: #333;
+  color: #ff8f18;
 }
 
 .form-group input,
@@ -266,5 +271,5 @@ h1 {
 
 .submit-button:hover {
   background-color: #e64a19;
-}
+} */
 </style>

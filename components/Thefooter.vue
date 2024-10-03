@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-left">
-          <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+          <p>&copy; 2024 Selam-art. All rights reserved.</p>
         </div>
         <div class="footer-center">
           <a href="/about">About Us</a>
@@ -36,7 +36,7 @@
 <style scoped>
 .footer {
   background-color: #333;
-  color: #fff;
+  color: #f5e621;
   padding: 1rem 0;
 }
 
@@ -48,7 +48,8 @@
 
 .footer-left,
 .footer-center,
-.footer-right {
+.footer-rigt 
+{
   flex: 1;
   text-align: center;
 }
@@ -59,7 +60,7 @@
 
 .footer-center a {
   margin: 0 1rem;
-  color: #fff;
+  color: #ffe418;
   text-decoration: none;
 }
 
@@ -69,7 +70,7 @@
 
 .footer-right a {
   margin: 0 0.5rem;
-  color: #fff;
+  color: #feea15;
   font-size: 1.5rem;
 }
 

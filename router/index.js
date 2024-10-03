@@ -4,6 +4,7 @@ import Animation from '../components/Animation.vue';
 import Illustration from '../components/Illustration.vue';
 import Storyboard from '../components/Storyboard.vue';
 import CharacterDesign from '../components/CharacterDesign.vue';
+import Selam from '../components/TheAbout.vue';
 
 Vue.use(Router);
 
@@ -34,7 +35,7 @@ export default new Router({
         path: '/selam',
         name: 'Selam',
         component: Selam
-      }
+      },
     {
       path: '*', // Catch-all route for 404 pages
       name: 'NotFound',
